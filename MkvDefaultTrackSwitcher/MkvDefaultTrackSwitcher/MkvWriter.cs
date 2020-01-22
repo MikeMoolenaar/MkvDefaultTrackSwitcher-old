@@ -30,8 +30,8 @@ namespace WindowsFormsApp1
                     string flagdefault = LsMkVfilePaths.First().streams.Any(p => 
                         (p.index == trackAudio || p.index == trackSubtitle) &&
                         p.codec_type == t.codec_type &&
-                        p.tags.language == t.tags.language &&
-                        p.tags.title == t.tags.title) ? "1" : "0";
+                        p.tags?.language == t.tags?.language &&
+                        p.tags?.title == t.tags?.title) ? "1" : "0";
 
                     commandargs += $" --edit track:@{flagtrack} --set flag-default={flagdefault} --set flag-forced=0";
                 });

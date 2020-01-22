@@ -24,7 +24,7 @@ namespace MKVdefaultTrackSwitcher
 
         public override string ToString()
         {
-            return $"({this.tags.language}) {this.tags.title}";
+            return this.tags is null ? $"(Unknown language or title) Stream {index}" : $"({this.tags.language}) {this.tags.title}";
         }
     }
 
