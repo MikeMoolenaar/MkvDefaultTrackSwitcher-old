@@ -2,7 +2,6 @@
 Windows application to change the default subitle and/or audio track in MKV video files, it can handle multiple files if the track names and numbers are the same.
 
 ### Demo
-![Demo gif](https://raw.githubusercontent.com/MikeYaye/MkvDefaultTrackSwitcher/master/demo.gif)  
 Demo where English audio and English(Signs and songs) subtitles by default are changed to Japanese audio and English(Dialogue) subtitles.
 
 ## Credits
