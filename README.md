@@ -1,9 +1,6 @@
 # MkvDefaultTrackSwitcher
 Windows application to change the default subitle and/or audio track in MKV video files, it can handle multiple files if the track names and numbers are the same.
 
-### Demo
-Demo where English audio and English(Signs and songs) subtitles by default are changed to Japanese audio and English(Dialogue) subtitles.
-
 ## Credits
 - [ffprobe](https://ffmpeg.org/ffprobe.html) Reads the metadata from the MKv file (like, what audio/subitlte tracks are there)
 - [mkvpropedit](https://mkvtoolnix.download/doc/mkvpropedit.html) Does the actual change to the default tracks.
