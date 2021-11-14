@@ -1,3 +1,6 @@
+# DEPRECATED
+Please use [MkvDefaultTrackChanger](https://github.com/MikeMoolenaar/MkvDefaultTrackChanger) instead because it runs on multiple platforms and is much faster.
+
 # MkvDefaultTrackSwitcher
 Windows application to change the default subitle and/or audio track in MKV video files, it can handle multiple files if the track names and numbers are the same.
 
